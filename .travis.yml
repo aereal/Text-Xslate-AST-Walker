@@ -1,0 +1,15 @@
+---
+language: perl
+perl:
+  - 5.10
+  - 5.12
+  - 5.14
+  - 5.16
+  - 5.18
+  - 5.20
+before_install:
+  - cpanm -n -q Carton
+install:
+  - carton install
+script:
+  - carton exec -- prove t/
