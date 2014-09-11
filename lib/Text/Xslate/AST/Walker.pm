@@ -1,5 +1,7 @@
 package Text::Xslate::AST::Walker;
 
+our $VERSION = '0.0.1';
+
 use strict;
 use warnings;
 use Class::Accessor::Lite (
