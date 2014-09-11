@@ -19,6 +19,17 @@ Text::Xslate::AST::Walker - Filter Nodes in the AST made by Text::Xslate
       ($node->arity eq 'variable') && !$node->is_defined && !$node->is_reserved;
     });
 
+# DESCRIPTION
+
+Filter nodes in the AST which made by Text::Xslate.
+
+# LICENSE
+
+Copyright (C) aereal.
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
+
 # AUTHOR
 
 aereal <aereal@aereal.org>
