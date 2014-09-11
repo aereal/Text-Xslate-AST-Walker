@@ -52,3 +52,20 @@ sub _ensure_array_ref {
 }
 
 1;
+__END__
+
+= encoding utf-8
+
+=head1 NAME
+
+Text::Xslate::AST::Walker - Filter Nodes in the AST made by Text::Xslate
+
+=head1 SYNOPSIS
+
+TBD
+
+=head1 AUTHOR
+
+aereal E<lt>aereal@aereal.orgE<gt>
+
+=cut
