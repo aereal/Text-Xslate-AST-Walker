@@ -5,7 +5,7 @@ use warnings;
 use FindBin;
 use lib "$FindBin::Bin/../lib";
 
-use Text::Xslate;
+use Text::Xslate::Parser;
 use Text::Xslate::AST::Walker;
 
 my $template = do {
@@ -14,8 +14,7 @@ my $template = do {
   join '', <$fh>;
 };
 
-my $tx = Text::Xslate->new;
-my $parser = $tx->_compiler->parser;
+my $parser = Text::Xslate::Parser->new;
 my $nodes = $parser->parse($template);
 my $tw = Text::Xslate::AST::Walker->new(nodes => $nodes);
 
