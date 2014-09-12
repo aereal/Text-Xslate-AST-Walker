@@ -64,8 +64,5 @@
          "web" : "https://github.com/aereal/Text-Xslate-AST-Walker"
       }
    },
-   "version" : "0.0.1",
-   "x_contributors" : [
-      "aereal <aereal@users.noreply.github.com>"
-   ]
+   "version" : "0.0.1"
 }
