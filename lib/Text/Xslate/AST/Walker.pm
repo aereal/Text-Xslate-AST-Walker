@@ -1,6 +1,6 @@
 package Text::Xslate::AST::Walker;
 
-our $VERSION = '0.0.1';
+our $VERSION = '0.01';
 
 use strict;
 use warnings;
