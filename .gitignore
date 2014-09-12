@@ -19,6 +19,7 @@ nytprof.out
 
 # Carton
 local/
+cpanfile.snapshot
 /Text-Xslate-AST-Walker-*
 /.build
 /_build_params
